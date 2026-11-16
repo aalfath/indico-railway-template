@@ -1,0 +1,21 @@
+# Everything goes to stderr, so it shows in Railway's deploy logs.
+version: 1
+
+root:
+  level: INFO
+  handlers: [stderr]
+
+loggers:
+  indico:
+    level: INFO
+  celery:
+    level: INFO
+
+handlers:
+  stderr:
+    class: logging.StreamHandler
+    formatter: default
+
+formatters:
+  default:
+    format: '%(asctime)s  %(levelname)-7s  %(name)-25s %(message)s'
