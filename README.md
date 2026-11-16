@@ -1,3 +1,5 @@
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/new/template/indico?utm_medium=integration&utm_source=button&utm_campaign=indico)
+
 # Indico on Railway
 
 A Railway template for [Indico](https://getindico.io), CERN's open-source event management system for conferences, meetings and lectures (agendas, registration, abstracts, timetables, room booking).
